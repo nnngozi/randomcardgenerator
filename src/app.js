@@ -7,5 +7,11 @@ import "./assets/img/4geeks.ico";
 
 window.onload = function() {
   //write your code here
-  console.log("Hello Rigo from the console!");
+  let suit = [diamonds, clubs, hearts, spades];
+  let rank = [A, K, Q, J, 10, 9, 8, 7, 6, 5, 4, 3, 2];
+  let card = document.querySelector(".card");
+  let num = document.querySelector(".num");
+  function getRandomArb(min, max) {
+    return Math.floor(Math.random() * (max - min) + min);
+  }
 };
