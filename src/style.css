@@ -53,3 +53,6 @@ body {
   margin: auto;
   font-size: 120px;
 }
+.btn {
+  text-align: center;
+}
